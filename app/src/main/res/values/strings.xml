@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">uts</string>
+    <string name="prompt_email" />
+    <string name="action_sign_in_short" />
+</resources>

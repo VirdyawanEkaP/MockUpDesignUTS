@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info kajian"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="115dp"
+        android:layout_height="60dp"
+        android:text="jadwal puasa"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="doa harian"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="110dp"
+        android:layout_height="57dp"
+        android:text="dzikir petang"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="398dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/masjidd"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <SearchView
+        android:layout_width="400dp"
+        android:layout_height="63dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="110dp"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/kajian"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="110dp"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/jadwal"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="110dp"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/doa"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="110dp"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/unnamed"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
